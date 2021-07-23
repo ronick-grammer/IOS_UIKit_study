@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D402BD2326AA8CFC00DBD584 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D402BD2226AA8CFC00DBD584 /* MapViewController.swift */; };
 		D428C66C26A3BD2000E0E7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428C66B26A3BD2000E0E7DB /* AppDelegate.swift */; };
 		D428C66E26A3BD2000E0E7DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428C66D26A3BD2000E0E7DB /* SceneDelegate.swift */; };
 		D428C67026A3BD2000E0E7DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D428C66F26A3BD2000E0E7DB /* ViewController.swift */; };
 		D428C67326A3BD2000E0E7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D428C67126A3BD2000E0E7DB /* Main.storyboard */; };
 		D428C67526A3BD2200E0E7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D428C67426A3BD2200E0E7DB /* Assets.xcassets */; };
 		D428C67826A3BD2200E0E7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D428C67626A3BD2200E0E7DB /* LaunchScreen.storyboard */; };
+		D44BB45526AA5E8100DD21B9 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BB45426AA5E8100DD21B9 /* ImageViewController.swift */; };
+		D44BB45726AA643400DD21B9 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BB45626AA643400DD21B9 /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D402BD2226AA8CFC00DBD584 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D428C66826A3BD2000E0E7DB /* IOS_UIKit_study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_UIKit_study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D428C66B26A3BD2000E0E7DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D428C66D26A3BD2000E0E7DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		D428C67426A3BD2200E0E7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D428C67726A3BD2200E0E7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D428C67926A3BD2200E0E7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44BB45426AA5E8100DD21B9 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D44BB45626AA643400DD21B9 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 				D428C66B26A3BD2000E0E7DB /* AppDelegate.swift */,
 				D428C66D26A3BD2000E0E7DB /* SceneDelegate.swift */,
 				D428C66F26A3BD2000E0E7DB /* ViewController.swift */,
-				D428C67126A3BD2000E0E7DB /* Main.storyboard */,
+				D44BB45426AA5E8100DD21B9 /* ImageViewController.swift */,
+				D44BB45626AA643400DD21B9 /* PickerViewController.swift */,
+				D402BD2226AA8CFC00DBD584 /* MapViewController.swift */,
 				D428C67426A3BD2200E0E7DB /* Assets.xcassets */,
 				D428C67626A3BD2200E0E7DB /* LaunchScreen.storyboard */,
+				D428C67126A3BD2000E0E7DB /* Main.storyboard */,
 				D428C67926A3BD2200E0E7DB /* Info.plist */,
 			);
 			path = IOS_UIKit_study;
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44BB45726AA643400DD21B9 /* PickerViewController.swift in Sources */,
+				D402BD2326AA8CFC00DBD584 /* MapViewController.swift in Sources */,
 				D428C67026A3BD2000E0E7DB /* ViewController.swift in Sources */,
 				D428C66C26A3BD2000E0E7DB /* AppDelegate.swift in Sources */,
+				D44BB45526AA5E8100DD21B9 /* ImageViewController.swift in Sources */,
 				D428C66E26A3BD2000E0E7DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
