@@ -13,6 +13,7 @@
 		D428C67326A3BD2000E0E7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D428C67126A3BD2000E0E7DB /* Main.storyboard */; };
 		D428C67526A3BD2200E0E7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D428C67426A3BD2200E0E7DB /* Assets.xcassets */; };
 		D428C67826A3BD2200E0E7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D428C67626A3BD2200E0E7DB /* LaunchScreen.storyboard */; };
+		D46F524826AFAA5600D588E6 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F524726AFAA5600D588E6 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D428C67426A3BD2200E0E7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D428C67726A3BD2200E0E7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D428C67926A3BD2200E0E7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D46F524726AFAA5600D588E6 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D428C66B26A3BD2000E0E7DB /* AppDelegate.swift */,
 				D428C66D26A3BD2000E0E7DB /* SceneDelegate.swift */,
 				D428C66F26A3BD2000E0E7DB /* ViewController.swift */,
+				D46F524726AFAA5600D588E6 /* EditViewController.swift */,
 				D428C67126A3BD2000E0E7DB /* Main.storyboard */,
 				D428C67426A3BD2200E0E7DB /* Assets.xcassets */,
 				D428C67626A3BD2200E0E7DB /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46F524826AFAA5600D588E6 /* EditViewController.swift in Sources */,
 				D428C67026A3BD2000E0E7DB /* ViewController.swift in Sources */,
 				D428C66C26A3BD2000E0E7DB /* AppDelegate.swift in Sources */,
 				D428C66E26A3BD2000E0E7DB /* SceneDelegate.swift in Sources */,
