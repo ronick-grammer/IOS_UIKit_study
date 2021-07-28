@@ -43,26 +43,23 @@ class EditViewController: UIViewController {
     }
     
     @IBAction func btnDone(_ sender: UIButton) {
-        if delegate != nil {
+        if delegate != nil { // 완료 버튼을 눌렀을 때 비로소 메인뷰에 반영
             delegate?.didMessageEditDone(self, message: txMessage.text!)
             delegate?.didImageOnOffDone(self, isOn: isOn)
+            delegate?.didImageZoomDone(self, isZoom: isZoom)
         }
         _ = navigationController?.popViewController(animated: true) // 전 뷰로 이동(뒤로가기)
     }
     
     
     @IBAction func btnZoom(_ sender: UIButton) {
-        isZoom = !isZoom
-        
-        if delegate != nil {
-            delegate?.didImageZoomDone(self, isZoom: isZoom)
-        }
-        
-        btnZoomObj.setTitle(isZoom ? zoomOutText : zoomInText, for: .normal)
+        isZoom = !isZoom // zoom in out
+
+        btnZoomObj.setTitle(isZoom ? zoomOutText : zoomInText, for: .normal) //
     }
     
     @IBAction func swImageOnOff(_ sender: UISwitch) {
-        if sender.isOn {
+        if sender.isOn { // 스위치 on off
             isOn = true
         } else {
             isOn = false

@@ -41,15 +41,15 @@ class ViewController: UIViewController, EditDelegate {
     
     func didImageZoomDone(_ controller: EditViewController, isZoom: Bool) {
         var newWidth: CGFloat, newHeight: CGFloat
-        if isZoom {
+        if isZoom { // 확대
             newWidth = imgView.frame.width * zoomScale
             newHeight = imgView.frame.height * zoomScale
-        } else {
+        } else { // 축소
             newWidth = imgView.frame.width / zoomScale
             newHeight = imgView.frame.height / zoomScale
         }
         
-        self.isZoom = isZoom
+        self.isZoom = isZoom 
         imgView.frame.size = CGSize(width: newWidth, height: newHeight)
     }
     
@@ -67,7 +67,7 @@ class ViewController: UIViewController, EditDelegate {
         editViewController.textMessage = txMessage.text ?? ""
         editViewController.isOn = isOn
         editViewController.isZoom = isZoom
-        editViewController.delegate = self
+        editViewController.delegate = self // ** 전환되는 뷰와  데이터를 주고 받기위한 delegate
     }
 }
 
