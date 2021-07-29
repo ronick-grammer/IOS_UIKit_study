@@ -42,7 +42,7 @@ class SketchController: UIViewController {
         let touch = touches.first! as UITouch // 현재 터치 이벤트 가져오기
         let currentPoint = touch.location(in: imgView) // 이미지에서의 현재 터치 위치 가져오기
         
-        imgView.image?.draw(in: CGRect(x: 0, y: 0, width: imgView.frame.width, height: imgView.frame.height)) // 컨텍스트 내에 있는 이미지 뷰의 이미지를 이미지 뷰 크기 내에서 그리도록 설정, 햇갈리네..
+        imgView.image?.draw(in: CGRect(x: 0, y: 0, width: imgView.frame.width, height: imgView.frame.height)) // 컨텍스트 내에 있는 이미지 뷰의 이미지를 이미지 뷰 크기 내에서 그리도록 설정(기존 이미지에 그림을 계속 누적)
         
         context.move(to: CGPoint(x: lastPoint.x, y: lastPoint.y)) // 직전 위치로 시작위치를 옮기고
         context.addLine(to: CGPoint(x: currentPoint.x, y: currentPoint.y)) // 그 위치에서 현재 위치 까지 선을 그림
